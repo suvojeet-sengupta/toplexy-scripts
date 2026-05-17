@@ -25,6 +25,7 @@ REMOVE_PATHS=(
   "vendor/qcom/opensource/vibrator"
   "vendor/lineage-priv"
   "device/qcom/sepolicy_vndr/sm8450/"
+  "packages/apps/DolbyAtmos"
 )
 
 CLONE_REPOS=(
@@ -45,7 +46,6 @@ EXPORTS=(
 
 EXTRA_CMDS=(
 "echo 'no' | bash <(curl -s https://raw.githubusercontent.com/anonytry/Signify/refs/heads/wip/Signify.sh)"
-"rm -rf packages/apps/DolbyAtmos/preinstalled-packages-platform-dolby.xml"
 )
 
 

@@ -25,6 +25,7 @@ REMOVE_PATHS=(
   "vendor/qcom/opensource/vibrator"
   "vendor/lineage-priv"
   "device/qcom/sepolicy_vndr/sm8450/"
+  "packages/apps/DolbyAtmos"
   "packages/apps/Settings"
   "packages/apps/Launcher3"
   "frameworks/base"
@@ -57,7 +58,6 @@ EXPORTS=(
 # lunch, keygen, extra clones, anything — after envsetup
 # eval used intentionally: lunch cmds need current shell env
 EXTRA_CMDS=(
-"rm -rf packages/apps/DolbyAtmos/preinstalled-packages-platform-dolby.xml"
 )
 
 KERNELSU_ENABLED=true
