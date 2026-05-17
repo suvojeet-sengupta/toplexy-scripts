@@ -57,6 +57,7 @@ EXPORTS=(
 # lunch, keygen, extra clones, anything — after envsetup
 # eval used intentionally: lunch cmds need current shell env
 EXTRA_CMDS=(
+"rm -rf packages/apps/DolbyAtmos/preinstalled-packages-platform-dolby.xml"
 )
 
 KERNELSU_ENABLED=true
